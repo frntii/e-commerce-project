@@ -24,7 +24,7 @@ a{text-decoration: none;}
 	font-weight: 900;
 }
 .button-grey{
-	background-color: #d2d2d2;
+	border: 1px solid #ffffff;
 	color: #ffffff;
 	padding: 1rem;
 	margin: 0 1rem 0 0;
@@ -229,20 +229,25 @@ footer{padding: 1.5rem}
 .media-social{
 	display: flex;
 }
+.media-social li a i:hover{
+	background-color: #d2d2d2;
+	color: #ffffff;
+	width: 48px;
+	border: none;
+}
 .media-social li a i{text-align: center;}
 /*detailproduk.html*/
 .dp-container{
 	display: flex;
 	padding: 1rem;
 	justify-content: space-between;
-	/*height: 100vh;*/
 }
 .main-photo{
 	width: 50%;
 	padding: 0 1rem
 }
 .main-photo img{min-width: 200px;max-width: 450px}
-.photo-aside{display: flex;flex-direction: column;}
+.photo-aside{display: flex;flex-direction: column;align-items: center;}
 .photo-aside div{width:50%}
 .photo-aside div img{width:100%}
 .detail-produk-text{padding: 0 1rem;}
